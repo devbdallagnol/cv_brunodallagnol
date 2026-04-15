@@ -19,13 +19,13 @@ export class AppComponent {
   projects = [
     {
       title: 'Dash Fifa 23 (Python)',
-      description: 'Dashboard interativo com Pandas e Webbrowser para análise de dados de jogadores.',
-      tags: ['Python', 'Pandas', 'Webbrowser'],
+      description: 'Dashboard interativo com Pandas e Webbrowser para análise detalhada de dados de jogadores.',
+      tags: ['Python', 'Pandas', 'Data Viz'],
       icon: 'bar-chart-3'
     },
     {
       title: 'Disney Clone',
-      description: 'Clone responsivo da plataforma Disney+ focado em UI/UX e fidelidade visual.',
+      description: 'Clone responsivo da plataforma Disney+ focado em UI/UX de alta fidelidade e animações.',
       tags: ['JavaScript', 'CSS', 'HTML'],
       icon: 'layout'
     },
@@ -37,7 +37,7 @@ export class AppComponent {
     },
     {
       title: 'React API Project',
-      description: 'Aplicação para consumo eficiente de APIs externas utilizando React e Axios.',
+      description: 'Aplicação para consumo eficiente de APIs externas utilizando React e Axios com hooks customizados.',
       tags: ['React.js', 'Axios', 'API'],
       icon: 'globe'
     },
@@ -49,43 +49,43 @@ export class AppComponent {
     },
     {
       title: 'Bootcamp Akad',
-      description: 'Aplicações completas com React, .NET e IA com GitHub Copilot e Docker.',
-      tags: ['React.js', '.NET', 'Docker', 'IA'],
+      description: 'Aplicações completas com React, .NET e IA com GitHub Copilot e Docker containers.',
+      tags: ['React.js', '.NET', 'Docker'],
       icon: 'cpu'
     },
     {
       title: 'LocalizaLabs React Developer',
-      description: 'Desenvolvimento de aplicações modernas com foco em React, JS e TypeScript.',
+      description: 'Desenvolvimento de aplicações modernas com foco em React, JS e TypeScript para escala.',
       tags: ['React.js', 'JavaScript', 'TypeScript'],
       icon: 'code-2'
     },
     {
       title: 'Santander Backend Python',
-      description: 'Sistemas interativos e APIs com FastAPI e SQL, focando em fundamentos de Python.',
+      description: 'Sistemas interativos e APIs com FastAPI e SQL, focando em fundamentos sólidos de Python.',
       tags: ['Python', 'FastAPI', 'SQL'],
       icon: 'database'
     },
     {
       title: 'Orange Tech+ Inter',
-      description: 'Formação prática cobrindo de HTML/CSS a React e trilha completa de back-end.',
+      description: 'Formação prática cobrindo de HTML/CSS a React e trilha completa de back-end robusto.',
       tags: ['JavaScript', 'TypeScript', 'React'],
       icon: 'terminal'
     },
     {
       title: 'XP Inc. Cloud & IA',
-      description: 'Programa intensivo em Cloud Computing, IA Generativa e Engenharia de Prompt.',
-      tags: ['Cloud', 'IA', 'Prompt Engineering'],
+      description: 'Programa intensivo em Cloud Computing, IA Generativa e Engenharia de Prompt avançada.',
+      tags: ['Cloud', 'IA', 'Prompt Eng.'],
       icon: 'cloud'
     },
     {
       title: 'Klabin Excel BI & Dashboards',
-      description: 'Transformação de dados em insights estratégicos com SQL, Power BI e ETL.',
+      description: 'Transformação de dados em insights estratégicos com SQL, Power BI e processos ETL.',
       tags: ['SQL', 'Power BI', 'Excel'],
       icon: 'bar-chart-3'
     },
     {
       title: 'Python CRUD FastAPI',
-      description: 'Projeto de CRUD explorando boas práticas, rotas RESTful e documentação Swagger.',
+      description: 'Projeto de CRUD explorando boas práticas, rotas RESTful e documentação automática Swagger.',
       tags: ['FastAPI', 'Python', 'REST'],
       icon: 'database'
     }
