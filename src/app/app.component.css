@@ -29,6 +29,16 @@
   object-fit: contain;
 }
 
+.logo {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: white;
+}
+
+.logo span {
+  color: var(--primary);
+}
+
 .nav-links {
   display: flex;
   gap: 2rem;
