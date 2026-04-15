@@ -86,7 +86,7 @@
         </section>
       </div>
 
-      <!-- Coluna Direita: Habilidades e Projetos -->
+      <!-- Coluna Direita: Habilidades e Pessoal -->
       <aside class="sidebar-column">
         <section id="skills">
           <h2 class="section-title-left">Habilidades</h2>
@@ -94,27 +94,6 @@
             @for (skill of skills; track skill) {
               <span class="skill-tag animate-fade-in">{{ skill }}</span>
             }
-          </div>
-        </section>
-
-        <section id="projects">
-          <h2 class="section-title-left">Projetos & Bootcamps</h2>
-          <div class="project-card animate-fade-in">
-            <div class="project-header">
-              <i-lucide name="code-2" size="24"></i-lucide>
-              <h3>Bootcamp - XP Inc.</h3>
-            </div>
-            <p>Criação de aplicações web de ponta a ponta usando .NET para o back-end e React no front-end. Conhecimento de ações DevOps e deploy em nuvem.</p>
-            <span class="hours">127 horas • 2025</span>
-          </div>
-
-          <div class="project-card animate-fade-in delay-1">
-            <div class="project-header">
-              <i-lucide name="terminal" size="24"></i-lucide>
-              <h3>Inter Orange Tech+</h3>
-            </div>
-            <p>Desenvolvimento de aplicações de alto nível com as melhores práticas do mercado. Utilização de JavaScript, HTML, CSS, TypeScript e React.</p>
-            <span class="hours">78 horas • 2025</span>
           </div>
         </section>
 
@@ -137,6 +116,29 @@
         </section>
       </aside>
     </div>
+
+    <!-- Nova Seção de Projetos em Grid -->
+    <section id="projects-grid-section">
+      <h2 class="section-title">Projetos & Formações</h2>
+      <div class="projects-grid">
+        @for (project of projects; track project.title) {
+          <div class="project-card-modern animate-fade-in">
+            <div class="project-icon-wrapper">
+              <i-lucide [name]="project.icon" size="24"></i-lucide>
+            </div>
+            <div class="project-content">
+              <h3>{{ project.title }}</h3>
+              <p>{{ project.description }}</p>
+              <div class="project-tags">
+                @for (tag of project.tags; track tag) {
+                  <span class="tag">{{ tag }}</span>
+                }
+              </div>
+            </div>
+          </div>
+        }
+      </div>
+    </section>
   </div>
 
   <footer class="footer">
