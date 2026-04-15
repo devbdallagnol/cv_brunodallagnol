@@ -1,10 +1,251 @@
-<div class="main">
-  <img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="Angular Logo" width="120">
-  <h1>Welcome to your Angular App!</h1>
-  <p>This is a minimal template for Dyad.sh with Select UI to Edit support.</p>
-  <p>Edit <code>src/app/app.component.ts</code> to get started.</p>
-  
-  <app-hello></app-hello>
-</div>
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container animate-fade-in">
+      <div class="hero-content">
+        <span class="badge">FullStack Developer</span>
+        <h1>Bruno Augusto Barbosa Dall Agnol</h1>
+        <p class="location">São José dos Campos - SP</p>
+        
+        <div class="contact-grid">
+          <a href="tel:12996266975" class="contact-item">
+            <i-lucide name="phone" size="18"></i-lucide>
+            12 99626-6975
+          </a>
+          <a href="mailto:bruno.agnol@hotmail.com" class="contact-item">
+            <i-lucide name="mail" size="18"></i-lucide>
+            bruno.agnol@hotmail.com
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-item">
+            <i-lucide name="linkedin" size="18"></i-lucide>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <div class="container">
+    <div class="main-grid">
+      <!-- Left Column: Experience & Education -->
+      <div class="content-column">
+        <section id="experience">
+          <h2 class="section-title-left">Experiência Profissional</h2>
+          <div class="timeline">
+            <div class="timeline-item animate-fade-in delay-1">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Desenvolvedor Full Stack</h3>
+                  <span class="company">Easy2Tech</span>
+                  <span class="date">08/2023 - Presente</span>
+                </div>
+                <p>Techfin que automatiza dados em instituições que oferecem estruturação e acompanhamento de operações de crédito. Atendemos diversos setores da economia utilizando tecnologia de ponta para automatizar processos e reduzir custos.</p>
+              </div>
+            </div>
 
+            <div class="timeline-item animate-fade-in delay-2">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Desenvolvedor Full Stack</h3>
+                  <span class="company">CT Boas Novas</span>
+                  <span class="date">07/2022 - Presente</span>
+                </div>
+                <p>Desenvolvimento de site institucional utilizando HTML, CSS, Javascript e Sass. Garantindo manutenção contínua e suporte, fortalecendo a presença online da Comunidade Terapêutica Boas Novas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-fade-in delay-3">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Freelancer Autônomo</h3>
+                  <span class="date">2015 - Presente</span>
+                </div>
+                <p>Serviços autônomos como Técnico em Informática altamente qualificado, proporcionando soluções eficientes para questões técnicas e projetos digitais FullStack.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2 class="section-title-left">Educação</h2>
+          <div class="education-grid">
+            <div class="card animate-fade-in">
+              <h3>Pós Graduação - Análise de Dados</h3>
+              <p class="institution">Faculdade Descomplica • 2023</p>
+              <p class="description">Foco em estatística aplicada, computação e IA, utilizando ferramentas avançadas para Big Data e segurança na nuvem.</p>
+            </div>
+            <div class="card animate-fade-in">
+              <h3>Graduação - ADS</h3>
+              <p class="institution">Universidade Pitágoras Unopar • 2022</p>
+              <p class="description">Análise e Desenvolvimento de Sistemas com foco em gestão de projetos e resolução de problemas complexos.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Skills & Projects -->
+      <aside class="sidebar-column">
+        <section id="skills">
+          <h2 class="section-title-left">Habilidades</h2>
+          <div class="skills-container">
+            @for (skill of skills; track skill) {
+              <span class="skill-tag animate-fade-in">{{ skill }}</span>
+            }
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2 class="section-title-left">Projetos & Bootcamps</h2>
+          <div class="project-card animate-fade-in">
+            <div class="project-icon">
+              <dyad-write path="src/app/app.component.html" description="Continuing the structure of the portfolio with projects and sidebar content.">
+<main>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container animate-fade-in">
+      <div class="hero-content">
+        <span class="badge">FullStack Developer</span>
+        <h1>Bruno Augusto Barbosa Dall Agnol</h1>
+        <p class="location">São José dos Campos - SP</p>
+        
+        <div class="contact-grid">
+          <a href="tel:12996266975" class="contact-item">
+            <i-lucide name="phone" size="18"></i-lucide>
+            12 99626-6975
+          </a>
+          <a href="mailto:bruno.agnol@hotmail.com" class="contact-item">
+            <i-lucide name="mail" size="18"></i-lucide>
+            bruno.agnol@hotmail.com
+          </a>
+          <a href="https://linkedin.com" target="_blank" class="contact-item">
+            <i-lucide name="linkedin" size="18"></i-lucide>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container">
+    <div class="main-grid">
+      <!-- Left Column: Experience & Education -->
+      <div class="content-column">
+        <section id="experience">
+          <h2 class="section-title-left">Experiência Profissional</h2>
+          <div class="timeline">
+            <div class="timeline-item animate-fade-in delay-1">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Desenvolvedor Full Stack</h3>
+                  <span class="company">Easy2Tech</span>
+                  <span class="date">08/2023 - Presente</span>
+                </div>
+                <p>Techfin que automatiza dados em instituições que oferecem estruturação e acompanhamento de operações de crédito. Atendemos diversos setores da economia utilizando tecnologia de ponta para automatizar processos e reduzir custos.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-fade-in delay-2">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Desenvolvedor Full Stack</h3>
+                  <span class="company">CT Boas Novas</span>
+                  <span class="date">07/2022 - Presente</span>
+                </div>
+                <p>Desenvolvimento de site institucional utilizando HTML, CSS, Javascript e Sass. Garantindo manutenção contínua e suporte, fortalecendo a presença online da Comunidade Terapêutica Boas Novas.</p>
+              </div>
+            </div>
+
+            <div class="timeline-item animate-fade-in delay-3">
+              <div class="timeline-dot"></div>
+              <div class="card">
+                <div class="card-header">
+                  <h3>Freelancer Autônomo</h3>
+                  <span class="date">2015 - Presente</span>
+                </div>
+                <p>Serviços autônomos como Técnico em Informática altamente qualificado, proporcionando soluções eficientes para questões técnicas e projetos digitais FullStack.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2 class="section-title-left">Educação</h2>
+          <div class="education-grid">
+            <div class="card animate-fade-in">
+              <h3>Pós Graduação - Análise de Dados</h3>
+              <p class="institution">Faculdade Descomplica • 2023</p>
+              <p class="description">Foco em estatística aplicada, computação e IA, utilizando ferramentas avançadas para Big Data e segurança na nuvem.</p>
+            </div>
+            <div class="card animate-fade-in">
+              <h3>Graduação - ADS</h3>
+              <p class="institution">Universidade Pitágoras Unopar • 2022</p>
+              <p class="description">Análise e Desenvolvimento de Sistemas com foco em gestão de projetos e resolução de problemas complexos.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <!-- Right Column: Skills & Projects -->
+      <aside class="sidebar-column">
+        <section id="skills">
+          <h2 class="section-title-left">Habilidades</h2>
+          <div class="skills-container">
+            @for (skill of skills; track skill) {
+              <span class="skill-tag animate-fade-in">{{ skill }}</span>
+            }
+          </div>
+        </section>
+
+        <section id="projects">
+          <h2 class="section-title-left">Projetos & Bootcamps</h2>
+          <div class="project-card animate-fade-in">
+            <div class="project-header">
+              <i-lucide name="code-2" size="24"></i-lucide>
+              <h3>Bootcamp - XP Inc.</h3>
+            </div>
+            <p>Criação de aplicações web de ponta a ponta usando .NET para o back-end e React no front-end. Conhecimento de ações DevOps e deploy em nuvem.</p>
+            <span class="hours">127 horas • 2025</span>
+          </div>
+
+          <div class="project-card animate-fade-in delay-1">
+            <div class="project-header">
+              <i-lucide name="terminal" size="24"></i-lucide>
+              <h3>Inter Orange Tech+</h3>
+            </div>
+            <p>Desenvolvimento de aplicações de alto nível com as melhores práticas do mercado. Utilização de JavaScript, HTML, CSS, TypeScript e React.</p>
+            <span class="hours">78 horas • 2025</span>
+          </div>
+        </section>
+
+        <section id="personal">
+          <h2 class="section-title-left">Pessoal</h2>
+          <div class="personal-info">
+            <div class="info-item">
+              <i-lucide name="user" size="18"></i-lucide>
+              <span>Brasileiro, Solteiro</span>
+            </div>
+            <div class="info-item">
+              <i-lucide name="car" size="18"></i-lucide>
+              <span>Habilitação Tipo B</span>
+            </div>
+            <div class="info-item">
+              <i-lucide name="heart" size="18"></i-lucide>
+              <span>Futebol, Leitura, Viagens</span>
+            </div>
+          </div>
+        </section>
+      </aside>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2024 Bruno Dall Agnol. Desenvolvido com Angular.</p>
+    </div>
+  </footer>
+</main>
