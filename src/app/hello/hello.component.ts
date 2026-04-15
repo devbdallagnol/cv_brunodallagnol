@@ -5,8 +5,8 @@ import { Component } from '@angular/core';
   standalone: true,
   template: `
     <div class="hello">
-      <h2>Hello Component</h2>
-      <p>This is an example component to demonstrate Dyad.sh Select UI to Edit feature.</p>
+      <h2>Seja Bem vindo</h2>
+      <p>Aqui você pode acompanhar minhas habilidades e projetos realizados.</p>
     </div>
   `,
   styles: [`
